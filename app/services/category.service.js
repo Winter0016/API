@@ -54,7 +54,7 @@ module.exports = {
 
             const where = {id: id};
 
-            book.findOne({
+            category.findOne({
                 where: where,
                 attributes: attributes,
                 raw: true,
